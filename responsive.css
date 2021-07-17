@@ -1,0 +1,57 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .fa-bars{
+    display: none;
+  }
+  .judul-home h1{
+    font-size: 32px;
+  }
+  .lesson{
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  
+  .header-right{
+    display: none;
+  }
+  .fa-bars{
+    display: block;
+    color: white;
+    float: right;
+    font-size: 25px;
+    margin: 21px 0;
+  }
+   .judul-home h1{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+  }
+  .judul-home p{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+  }
+  .btn-wrapper a{
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+  .facebook{
+    margin-bottom: 10px;
+  }
+  .lesson{
+    width: 100%;
+  }
+  .heading h2{
+    font-size: 20px;
+  }
+  footer{
+    text-align: center;
+    clear: left;
+  }
+}
